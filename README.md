@@ -16,7 +16,4 @@ Tool calling and the agent loop · context engineering · multi-agent handoffs �
 
 ## Running these
 
-```bash
-uv sync
-cp .env.example .env   # add your provider keys
-```
+Any OpenAI-compatible key works. These were run inside the course environment (`uv sync` in [ed-donner/agents](https://github.com/ed-donner/agents)) with keys in a local `.env`.
